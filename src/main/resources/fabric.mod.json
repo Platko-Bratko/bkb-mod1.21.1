@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "bkb-mod",
+	"version": "${version}",
+	"name": "BKB mod",
+	"description": "This is fucking BKB!",
+	"authors": [
+		"Cheshuja!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/bkb-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.platbratbbkb.tutorial.BKBMod"
+		],
+		"fabric-datagen": [
+			"net.platbratbbkb.tutorial.BKBModDataGenerator"
+		],
+		"client": [
+			"net.platbratbbkb.tutorial.BKBmodClient"
+		]
+	},
+	"mixins": [
+		"bkb-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
