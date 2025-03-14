@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "tools",
+  "pattern": [
+    "GSG",
+    "INI",
+    " B "
+  ],
+  "key": {
+    "G": { "item": "minecraft:gold_ingot" },
+    "S": { "item": "minecraft:nether_star" },
+    "I": { "item": "minecraft:netherite_ingot" },
+    "N": { "item": "minecraft:iron_ingot" },
+    "B": { "item": "minecraft:blaze_rod" }
+  },
+  "result": {
+    "id": "bkbmod:the_bkb_staff",
+    "count": 1
+  }
+}

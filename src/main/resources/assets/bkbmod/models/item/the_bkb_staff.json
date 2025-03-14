@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "bkb-mod:item/the_bkb_staff"
+  }
+}
